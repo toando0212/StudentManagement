@@ -25,7 +25,7 @@ import java.util.ArrayList;
 public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.StudentViewHolder> {
     private ArrayList<Student> studentList;
     private Context context;
-    private static final String BASE_URL = "http://192.168.1.132:5000/students/";
+    private static final String BASE_URL = "http://172.16.3.194:5000/students/";
 
     public StudentAdapter(ArrayList<Student> studentList, Context context) {
         this.studentList = studentList;

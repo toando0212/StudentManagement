@@ -22,7 +22,7 @@ public class EditStudentActivity extends AppCompatActivity {
     EditText edtMaSV, edtHoTen, edtLop, edtNganh, edtKhoa, edtTruong;
     Button btnSave;
     int id;
-    String baseUrl = "http://192.168.1.132:5000/students/";
+    String baseUrl = "http://172.16.3.194:5000/students/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

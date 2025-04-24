@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     private StudentAdapter adapter;
     private ArrayList<Student> studentList = new ArrayList<>();
     private Button btnAdd;
-    private final String url = "http://192.168.1.132:5000/students";
+    private final String url = "http://172.16.3.194:5000/students";
 
     private SearchView searchView;
 
@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void loadStudents(@Nullable String nameFilter) {
-        String url = "http://192.168.1.132:5000/students";
+        String url = "http://172.16.3.194:5000/students";
         if (nameFilter != null && !nameFilter.isEmpty()) {
             try {
                 // encode với Charset name để tương thích Android API cũ

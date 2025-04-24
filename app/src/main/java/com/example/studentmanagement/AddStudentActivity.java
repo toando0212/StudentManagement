@@ -28,7 +28,7 @@ public class AddStudentActivity extends AppCompatActivity {
     // Nếu chạy emulator: http://10.0.2.2:5000/students
     // Nếu adb reverse: http://127.0.0.1:5000/students
     // Nếu LAN IP: http://192.168.x.x:5000/students
-    String url = "http://192.168.1.132:5000/students";
+    String url = "http://172.16.3.194:5000/students";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
